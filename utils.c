@@ -1,4 +1,3 @@
-
 #include "main.h"
 
 
@@ -30,7 +29,7 @@ int is_printable(char c)
 
 /**
 
- * append_hexa_code - Append ascci in hexadecimal code to buffer
+ * append_hexa_code - Append ascii in hexadecimal code to buffer
 
  * @buffer: Array of chars.
 
@@ -102,11 +101,11 @@ int is_digit(char c)
 
  * @num: Number to be casted.
 
- * @size: Number indicating the type to be casted.
+ * @size: number to indicate the type to be casted.
 
  *
 
- * Return: Casted value of num
+ * Return: Casts value of numbers
 
  */
 
@@ -134,11 +133,11 @@ long int convert_size_number(long int num, int size)
 
  * @num: Number to be casted
 
- * @size: Number indicating the type to be casted
+ * @size: number indicates the type to be casted
 
  *
 
- * Return: Casted value of num
+ * Return: Casts value of numbers
 
  */
 

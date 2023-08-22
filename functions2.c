@@ -7,19 +7,19 @@
 
  * print_pointer - Prints the value of a pointer variable
 
- * @types: List a of arguments
+ * @types: Lists arguments
 
- * @buffer: Buffer array to handle print
+ * @buffer: Buffers arrays to handle prints
 
- * @flags:  Calculates active flags
+ * @flags: Calculates active flags
 
- * @width: get width
+ * @width: width
 
- * @precision: Precision specification
+ * @precision: precision specifications
 
- * @size: Size specifier
+ * @size: size for specifiers
 
- * Return: Number of chars printed.
+ * Return: Number of characters to print
 
  */
 
@@ -102,19 +102,19 @@ int print_pointer(va_list types, char buffer[],
 
  * print_non_printable - Prints ascii codes in hexa of non printable chars
 
- * @types: Lista of arguments
+ * @types: Lists arguments
 
- * @buffer: Buffer array to handle print
+ * @buffer: buffers arrays to handle prints
 
- * @flags:  Calculates active flags
+ * @flags: calculates active flags
 
- * @width: get width
+ * @width: width
 
- * @precision: Precision specification
+ * @precision: precision specifications
 
- * @size: Size specifier
+ * @size: size specifiers
 
- * Return: Number of chars printed
+ * Return: number of characters to print
 
  */
 
@@ -173,21 +173,21 @@ int print_non_printable(va_list types, char buffer[],
 
 /**
 
- * print_reverse - Prints reverse string.
+ * print_reverse - prints reverse string.
 
- * @types: Lista of arguments
+ * @types: lists arguments
 
- * @buffer: Buffer array to handle print
+ * @buffer: buffers arrays to handle prints
 
- * @flags:  Calculates active flags
+ * @flags: calculates active flags
 
- * @width: get width
+ * @width: width
 
- * @precision: Precision specification
+ * @precision: Precision specifications
 
- * @size: Size specifier
+ * @size: size specifiers
 
- * Return: Numbers of chars printed
+ * Return: numbers of characters to print
 
  */
 
@@ -252,21 +252,21 @@ int print_reverse(va_list types, char buffer[],
 
 /**
 
- * print_rot13string - Print a string in rot13.
+ * print_rot13string - Prints strings in rot13.
 
- * @types: Lista of arguments
+ * @types: Lists arguments
 
- * @buffer: Buffer array to handle print
+ * @buffer: buffers arrays to handle prints
 
- * @flags:  Calculates active flags
+ * @flags: calculates active flags
 
- * @width: get width
+ * @width: width
 
- * @precision: Precision specification
+ * @precision: Precision specifications
 
- * @size: Size specifier
+ * @size: size specifiers
 
- * Return: Numbers of chars printed
+ * Return: Numbers of characters to print
 
  */
 

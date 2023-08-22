@@ -3,11 +3,11 @@
 
 /**
 
- * get_size - Calculates the size to cast the argument
+ * get_size - calculate the size to cast arguments
 
- * @format: Formatted string in which to print the arguments
+ * @format: formatted string in which it prints arguments
 
- * @i: List of arguments to be printed.
+ * @i: List and arguments that print
 
  *
 
